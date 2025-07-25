@@ -1,5 +1,6 @@
 /* INSPIRATION: http://drbl.in/1945392 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
 .loading {
   position: absolute;
   left: 50%;
@@ -7,7 +8,7 @@
   margin: -35px 0 0 -56px;
   width: 112px;
   height: 70px;
-  *zoom: 1;
+  zoom: 1;
 }
 .loading:before,
 .loading:after {
@@ -93,7 +94,7 @@
 }
 .loading .finger-item span:before,
 .loading .finger-item span:after {
-  content: '';
+  content: "";
   position: relative;
   display: block;
   margin: 0 0 2px 0;
@@ -148,7 +149,7 @@
   overflow: hidden;
 }
 .loading .last-finger-item i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
